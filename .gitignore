@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.pyc
+build/
+dist/
+wheels/
+*.egg-info
+*.env
+*.tmp
+.coverage
+coverage.xml
+*_cache/
+uv.lock
+*~
+
+# Virtual environments
+.venv
+venv/
+.venv/
