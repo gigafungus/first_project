@@ -12,6 +12,7 @@ coverage.xml
 *_cache/
 uv.lock
 *~
+.python-version
 
 # Virtual environments
 .venv
