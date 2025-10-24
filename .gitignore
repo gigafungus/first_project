@@ -13,6 +13,7 @@ coverage.xml
 uv.lock
 *~
 .python-version
+*.cast
 
 # Virtual environments
 .venv
