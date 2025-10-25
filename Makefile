@@ -10,7 +10,11 @@ brain-games:
 
 
 brain-even:
-	uv run brain-even
+	uv run brain-even || true
+
+
+brain_calc:
+	uv run brain-calc || true
 
 
 build:
