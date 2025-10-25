@@ -1,33 +1,32 @@
 from random import randint
 
+from brain_games.cli import welcome_user
+
 import prompt
 
+def is_even(rnd_num):
+    return 'yes' if rnd_num % 2 == 0 else 'no'
 
 def main():
     print("Welcome to the Brain Games!")
-    name = prompt.string("May I have your name? ")
-    print(f"Hello, {name}!")
+    welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    correct_cntr = 0  # счетчик верных ответов
-    correct_to_win = 3  # необходимо верных ответов для победы
+    attempt = 0  # счетчик верных ответов
+    max_attempts = 3  # необходимо верных ответов для победы
 
-    while correct_cntr < correct_to_win:
+    while attempt < max_attempts:
         rnd_num = randint(1, 50)  # произвольный интервал из множества чисел
         print(f'Question: {rnd_num}')
         answer = prompt.string('Your answer: ')  
-
-        def is_even(rnd_num):
-            return 'yes' if rnd_num % 2 == 0 else 'no'
         
         if answer == is_even(rnd_num):
-            correct_cntr += 1
+            attempt += 1
             print('Correct!')
-            if correct_cntr == correct_to_win:
-                print(f'Congratulations, {name}!')
-                return
+            if attempt == max_attempts:
+                return f'Congratulations, {welcome_user()}!'
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{is_even(rnd_num)}'.")
-            print(f"Let's try again, {name}!")
-            return
+            return f"Let's try again, {welcome_user()}!"
+            
 
 
