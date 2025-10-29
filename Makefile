@@ -5,16 +5,12 @@ install:
 	uv sync
 
 
+start:
+	uv run start
+
+
 brain-games:
 	uv run brain-games
-
-
-brain-even:
-	uv run brain-even || true
-
-
-brain_calc:
-	uv run brain-calc || true
 
 
 build:
