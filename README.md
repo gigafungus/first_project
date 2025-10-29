@@ -6,3 +6,7 @@
 ### Brain Games asciinemas:
 [brain-even](https://asciinema.org/a/fgKmQw27vVt5pyRUK2DfxkNSJ)
 
+[brain-calc](https://asciinema.org/a/quTSJhEYa3wl7GiA5Bj6KwkUD)
+
+[brain-calc 2.0](https://asciinema.org/a/5lNKZRtNc9uOGHKtZiJpBDTXQ)
+
