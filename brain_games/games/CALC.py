@@ -12,3 +12,9 @@ def expression():
     else:
         return num1 * num2
 
+
+GAME_DESCRIPTION = 'What is the result of the expression?'
+
+
+if __name__ == "__main__":
+    expression()

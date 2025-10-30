@@ -7,4 +7,7 @@ def is_even():
     return 'yes' if rnd_num % 2 == 0 else 'no'
 
 
+GAME_DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
+if __name__ == "__main__":
+    is_even()
