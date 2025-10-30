@@ -8,5 +8,6 @@
 
 [brain-calc](https://asciinema.org/a/quTSJhEYa3wl7GiA5Bj6KwkUD)
 
-[brain-calc 2.0](https://asciinema.org/a/5lNKZRtNc9uOGHKtZiJpBDTXQ)
+[brain-progression](https://asciinema.org/a/PO2r6s8dPb4y3GW1eMqe2MhYy)
+
 
