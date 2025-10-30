@@ -10,4 +10,5 @@
 
 [brain-progression](https://asciinema.org/a/PO2r6s8dPb4y3GW1eMqe2MhYy)
 
+[brain-gcd rabotaet krivo!](https://asciinema.org/a/XijAzm77jHAEbwrOlIIuaFhdN)
 
