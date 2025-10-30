@@ -24,4 +24,5 @@ dev = [
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.brain_calc:main"
-start = "brain_games.scripts.engine:start"
+brain-gcp = "brain_games.scripts.brain_gcp:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
