@@ -9,7 +9,7 @@ def gcd():
     return a
 
 
-GAME_DESCRIPTION = 'Find the greatest common divisor of given numbers.'
+GAME_TASK = 'Find the greatest common divisor of given numbers.'
 
 
 if __name__ == "__main__":

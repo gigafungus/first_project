@@ -13,7 +13,7 @@ def expression():
         return num1 * num2
 
 
-GAME_DESCRIPTION = 'What is the result of the expression?'
+GAME_TASK = 'What is the result of the expression?'
 
 
 if __name__ == "__main__":
