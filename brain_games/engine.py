@@ -26,4 +26,4 @@ def start(game_description, game_function):
 
 
 if __name__ == "__main__":
-    start()
+    start(game_description, game_function)
