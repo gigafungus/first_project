@@ -1,8 +1,11 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "First project representing five simple math games"
 readme = "README.md"
+authors = [
+	{ name = 'fungus', email = 'amortis@inbox.ru'}
+]
 requires-python = ">=3.12"
 dependencies = [
     "prompt>=0.4.1",
