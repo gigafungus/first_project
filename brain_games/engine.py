@@ -5,9 +5,9 @@ from brain_games.cli import welcome_user
 
 def start(game_description, game_function):
     user = welcome_user()
+    print(game_description)
     attempt = 0
     max_attempts = 3
-    print(game_description)
 
     while attempt < max_attempts:
         correct_answer = str(game_function())

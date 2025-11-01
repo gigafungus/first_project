@@ -1,5 +1,5 @@
 from brain_games.engine import start
-from brain_games.games.PROGRESSION import GAME_DESCRIPTION, progression
+from brain_games.games.game_progression import GAME_DESCRIPTION, progression
 
 
 def main():

@@ -1,5 +1,5 @@
 from brain_games.engine import start
-from brain_games.games.CALC import GAME_DESCRIPTION, expression
+from brain_games.games.game_calc import GAME_DESCRIPTION, expression
 
 
 def main():
