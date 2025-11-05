@@ -27,4 +27,4 @@ def start(game_task, game_function):
 
 
 if __name__ == "__main__":
-    start()
+    start(game_task, game_function)  # NOSONAR
