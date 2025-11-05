@@ -3,12 +3,15 @@
 
 
 # Welcome to the Brain Games.
-> Introducing five math-based small simple games you can play using your command line interface after installing this repo. 
-* To install press a '< > Code' button above and choose a link to copy depending of what kind of github interaction you prefer. 
+Introducing five math-based small simple games you can play using your command line interface after installing this repo. 
+* To install press a '< > Code' button above and choose a link to copy depending of what kind of github interaction you prefer.
 * After copying proceed to your terminal, choose or create directory you want to install games into and input `git clone` with the link you copied. 
-* After the repository downloads input `make package-install` and here you go, choose the game and play. 
-> Now you have five game commands available, you can choose between `brain-even`, `brain-calc`, `brain-gcd`, `brain-progression`, `brain-prime`
-Each game has its own rules but overall you have to answer correct three times to win and one mistake leads to losing.
+* After the repository downloads input `make update` and here you go, choose the game and play. 
+
+[installation demo](https://asciinema.org/a/GOhViulOn5W6qAHPofOqIKRii)
+
+Now you have five game commands available, you can choose between `brain-even`, `brain-calc`, `brain-gcd`, `brain-progression`, `brain-prime`
+Each game has its own rules but overall you have to answer correct three times to win or make one mistake leads to lose.
 You can watch some examples of what it looks like by the links below.
 
 ### Brain Games asciinemas:
