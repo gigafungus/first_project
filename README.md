@@ -10,8 +10,8 @@ Introducing five math-based small simple games you can play using your command l
 
 [installation demo](https://asciinema.org/a/GOhViulOn5W6qAHPofOqIKRii)
 
-Now you have five game commands available, you can choose between `brain-even`, `brain-calc`, `brain-gcd`, `brain-progression`, `brain-prime`
-Each game has its own rules but overall you have to answer correct three times to win or make one mistake leads to lose.
+After the installation you'll have five game commands available, you can choose between `brain-even`, `brain-calc`, `brain-gcd`, `brain-progression`, `brain-prime`.
+Each game has its own rules explained as soon as you introduce yourself to the game but overall you have to answer correctly three times to win or make one mistake to lose.
 You can watch some examples of what it looks like by the links below.
 
 ### Brain Games asciinemas:
